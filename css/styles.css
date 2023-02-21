@@ -1,10 +1,16 @@
+:root {
+    --primery-text-color: #434455;
+    --titel-text-color: #2E2F42;
+    --primery-background: #FFFFFF;
+}
+
 .link {
     list-style: none;
 }
 
 body {
-    background-color: #FFFFFF;
-    color: #434455;
+    background-color: var(--primery-background);
+    color: var(--primery-text-color);
 }
 
 .logo-web {
@@ -24,7 +30,7 @@ body {
 }
 
 .title-color {
-    color: #2E2F42;
+    color: var(--titel-text-color);
 }
 
 .bgc-team {
