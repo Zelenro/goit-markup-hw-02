@@ -1,9 +1,11 @@
+/* Function CSS */
 :root {
     --primery-text-color: #434455;
     --titel-text-color: #2E2F42;
     --primery-background: #FFFFFF;
 }
 
+/* Global */
 .link {
     list-style: none;
 }
@@ -12,6 +14,8 @@ body {
     background-color: var(--primery-background);
     color: var(--primery-text-color);
 }
+
+/* Top */
 
 .logo-web {
     color: #4D5AE5;
@@ -29,13 +33,19 @@ body {
     color: #434455;
 }
 
+/* Text */
+
 .title-color {
     color: var(--titel-text-color);
 }
 
+/* Our team */
+
 .bgc-team {
     background-color: #F4F4FD
 }
+
+/* Footer */
 
 .bgc-footer {
     background-color: #2E2F42;
