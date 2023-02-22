@@ -10,6 +10,11 @@
     list-style: none;
 }
 
+.line {
+    text-decoration: none;
+}
+
+
 
 /* Hero */
 h1 {
@@ -65,7 +70,6 @@ body {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
 
 .logo-studio {
@@ -76,7 +80,6 @@ body {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-decoration: none;
 }
 
 
