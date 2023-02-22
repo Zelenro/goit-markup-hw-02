@@ -10,19 +10,15 @@
     list-style: none;
 }
 
-.line:hover {
+.line:hover,
+.line:focus {
     color: red;
 }
 
-.line:focus {
-    color: yellow;
-}
 
 .line {
     text-decoration: none;
 }
-
-
 
 /* Hero */
 h1 {
