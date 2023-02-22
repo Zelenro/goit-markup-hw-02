@@ -34,19 +34,21 @@ button {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    align-items: center;
+
 }
 
 h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
+    text-align: center;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+
 }
 
 
