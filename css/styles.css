@@ -10,6 +10,14 @@
     list-style: none;
 }
 
+.line:hover {
+    color: red;
+}
+
+.line:focus {
+    color: yellow;
+}
+
 .line {
     text-decoration: none;
 }
@@ -34,8 +42,8 @@ button {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-
 }
+
 
 h2 {
     font-size: 36px;
@@ -50,7 +58,6 @@ h3 {
     line-height: 1.2;
 
 }
-
 
 body {
     background-color: var(--primery-background);
@@ -143,3 +150,5 @@ body {
 .foter-text {
     color: #E7E9FC;
 }
+
+/* Portfolio */
