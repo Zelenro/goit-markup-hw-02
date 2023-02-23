@@ -189,10 +189,7 @@ body {
 }
 
 
-
 /* Portfolio */
-
-
 
 .portfolio-link {
     background-color: #F4F4FD;
@@ -201,8 +198,13 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
+    letter-spacing: 0.04;
+}
+
+.link {
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 0.02;
 }
 
 .portfolio-link:hover,
