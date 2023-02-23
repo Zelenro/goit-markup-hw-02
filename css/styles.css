@@ -12,18 +12,17 @@
     list-style: none;
 }
 
-.line:hover,
-.line:focus {
-    background-color: #FFFFFF;
-    /* color: red; */
+.portfolio-link {
+    text-decoration: none;
+    list-style: none;
 }
+
+
 
 .main text {
     color: #434455;
 
-
     font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02;
 }
@@ -40,43 +39,51 @@ h1 {
     font-size: 56px;
     line-height: 0.9;
     text-align: center;
-    letter-spacing: 1.07;
+    letter-spacing: 0.02;
 }
-
-
 
 .button-hero {
     background-color: #4D5AE5;
     color: #FFFFFF;
 
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 }
 
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
 
+
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.04;
 }
-
 
 h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
     text-align: center;
-    letter-spacing: 1.2;
+    letter-spacing: 0.02;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 1.2;
+    letter-spacing: 0.02;
 }
 
 body {
@@ -87,6 +94,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    letter-spacing: 0.02;
 }
 
 /* Top */
@@ -98,7 +106,7 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
 }
 
 .logo-studio {
@@ -108,7 +116,7 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
 }
 
 
@@ -119,14 +127,19 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02;
 }
 
 .contact-color {
     color: #434455;
 
     font-size: 16px;
-    line-height: 24px;
-    line-height: 1, 2;
+    font-weight: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
 }
 
 /* Text */
@@ -139,6 +152,10 @@ body {
 
 .bgc-team {
     background-color: #F4F4FD
+}
+
+.team-card {
+    background-color: #FFFFFF;
 }
 
 /* Footer */
@@ -154,7 +171,7 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
 }
 
 .logo-studiof {
@@ -164,7 +181,7 @@ body {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03;
 }
 
 .foter-text {
@@ -178,16 +195,18 @@ body {
 
 
 .portfolio-link {
-
-    /* color: #4D5AE5; */
+    background-color: #F4F4FD;
+    color: #4D5AE5;
 
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
+}
 
-    .portfolio-link:hover,
-    .portfolio-link:focus {
-        ba
-    }
+.portfolio-link:hover,
+.portfolio-link:focus {
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+}
