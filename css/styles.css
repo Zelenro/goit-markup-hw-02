@@ -54,6 +54,11 @@
         font-style: normal;
     }
 
+    .address:hover,
+    address:focus {
+        color: #404BBF;
+    }
+
     /* Main */
 
     .hero {
@@ -73,6 +78,12 @@
     .button {
         background-color: #4D5AE5;
         color: #FFFFFF;
+    }
+
+    .button:hover,
+    .button:focus {
+        color: #FFFFFF;
+        background-color: #404BBF;
     }
 
     h2 {
@@ -145,13 +156,14 @@
     }
 
 
-    #404BBF .best-web {
+
+    .selection {
         background-color: #E7E9FC;
         color: #4D5AE5;
     }
 
-    .best-web:hover,
-    .best-web:focus {
+    .selection:hover,
+    .selection:focus {
         background-color: #404BBF;
         color: #FFFFFF;
     }
