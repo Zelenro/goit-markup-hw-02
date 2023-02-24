@@ -1,6 +1,7 @@
     /* Global */
-    .body {
+    body {
         background-color: #E5E5E5;
+        font-family: Roboto;
     }
 
     /* Heder */
@@ -33,7 +34,6 @@
     .nav {
         color: #2E2F42;
 
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -48,7 +48,6 @@
     }
 
     .address {
-        font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -70,7 +69,6 @@
     h1 {
         color: #ffffff;
 
-        font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
@@ -93,7 +91,7 @@
     h2 {
         color: #2E2F42;
 
-        font-family: Roboto;
+
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
@@ -103,7 +101,7 @@
     h3 {
         color: #2E2F42;
 
-        font-family: Roboto;
+
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -113,7 +111,7 @@
     p {
         color: #434455;
 
-        font-family: Roboto;
+
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
