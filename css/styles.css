@@ -38,6 +38,8 @@
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02;
+
+
     }
 
     .navigation:hover,
@@ -78,6 +80,8 @@
     .button {
         background-color: #4D5AE5;
         color: #FFFFFF;
+
+        cursor: pointer;
     }
 
     .button:hover,
@@ -160,6 +164,8 @@
     .selection {
         background-color: #E7E9FC;
         color: #4D5AE5;
+
+        cursor: pointer;
     }
 
     .selection:hover,
