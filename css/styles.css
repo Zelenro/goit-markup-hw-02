@@ -8,8 +8,15 @@
 /* Global */
 
 .line {
+    color: #2E2F42;
+
     text-decoration: none;
     list-style: none;
+}
+
+.line:hover,
+.line:focus {
+    color: #404BBF;
 }
 
 .portfolio-link {
@@ -55,7 +62,7 @@ h1 {
 
 .button-hero:hover,
 .button-hero:focus {
-    background-color: #4D5AE5;
+    background-color: #404BBF;
     color: #FFFFFF;
 }
 
@@ -97,6 +104,8 @@ body {
     letter-spacing: 0.02;
 }
 
+
+
 /* Top */
 
 .logo-web {
@@ -118,8 +127,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03;
 }
-
-
 
 .navi-color {
     color: var(--titel-text-color);
@@ -212,3 +219,5 @@ body {
     background-color: #4D5AE5;
     color: #F4F4FD;
 }
+
+*/
