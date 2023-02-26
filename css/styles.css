@@ -2,7 +2,14 @@
     body {
         background-color: #FFFFFF;
         font-family: 'Roboto', sans-serif;
+
     }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {}
 
     .krapka {
         list-style: none;
@@ -34,7 +41,7 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
-        text-decoration-line: none;
+        /* text-decoration-line: none; */
     }
 
     .navigation:hover,
